@@ -22,7 +22,7 @@ jobs:
         go-version: '1.22.5'
 
     - name: Build
-      run: make all WHAT=cmd/kubeadm GOFLAGS=-v
+      run: build/run.sh make kubeadm
 
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v3.2.1-node20
