@@ -27,5 +27,5 @@ jobs:
     - name: Upload a Build Artifact
       uses: actions/upload-artifact@v4.6.2
       with:
-        name: _output/local/bin/linux/amd64/kubeadm
-        path: _output/local/bin/linux/amd64/kubeadm
+        name: kubeadm
+        path: _output/local/bin/linux/amd64
